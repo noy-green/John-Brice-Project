@@ -1,0 +1,140 @@
+
+body {
+    background-image: url('https://cdn.glitch.com/eccdc7cf-fd80-49bc-9cb9-ce5644e38b6a%2Ftile.jpg?v=1591198121217');
+    background-repeat: repeat;
+}
+
+#newtask {
+    background-image: url('https://cdn.glitch.com/eccdc7cf-fd80-49bc-9cb9-ce5644e38b6a%2Fformbg.jpg?v=1591198117102');
+    text-size-adjust: initial;
+    color: magenta;
+    margin-top: 8px;
+    height: 160px;
+    width: 500px;
+    font-size: 20px;
+
+}
+
+#div_form {
+    height: 280px;
+    width: 720px;
+    background-color: pink;
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    border: solid 5px blueviolet;
+    border-radius: 2%;
+}
+
+#div_form:hover {
+    background-color: orchid;
+    border-color: #ee1eb5;
+}
+
+label {
+    font-size: 20px;
+    font-style: inherit;
+    color: teal;
+    font-weight: bold;
+}
+
+#date {
+    margin-top: 0px;
+    font-size: 15px;
+    border: #ee1eb5 solid 2px;
+    color: teal;
+}
+
+#visuTasks>div {
+    background-image: url('https://cdn.glitch.com/eccdc7cf-fd80-49bc-9cb9-ce5644e38b6a%2Fnotebg.png?v=1591198107453');
+    width: 180px;
+    height: 250px;
+    margin-top: 20px;
+    margin: 30px;
+    font-size: 20px;
+    color: teal;
+   
+}
+
+#visuTasks>div:hover {
+    background-color: palevioletred;
+}
+
+#visuTasks {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.x {
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    color: wheat
+}
+
+.x:hover {
+    color: #FF33B8;
+    background-color: seashell;
+}
+
+Button {
+    box-shadow: inset 0px 1px 0px 0px #fbafe3;
+    background: linear-gradient(to bottom, #ff5bb0 5%, #ef027d 100%);
+    background-color: #ff5bb0;
+    border-radius: 6px;
+    border: 1px solid #ee1eb5;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #c70067;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+Button:hover {
+    background: linear-gradient(to bottom, #ef027d 5%, #ff5bb0 100%);
+    background-color: #ef027d;
+}
+
+Button:active {
+    position: relative;
+    top: 1px;
+}
+
+.date {
+    position: absolute;
+    top: 210px;
+}
+
+.divesTsks {
+    position: relative;
+}
+
+p {
+    height: 160px;
+    overflow: auto;
+    word-wrap: break-word;
+}
+
+.fade-in {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
